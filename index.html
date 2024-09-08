@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>R</span>iya <span>M</span>athur</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#services" data-after="Service">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div id="intro">
+        <h1>Welcome! <span></span></h1>
+        <h1>I am Riya Mathur <span></span></h1>
+        <h1>Discover My Journey <span></span></h1>
+
+        <!--<h1>Riya Mathur <span></span></h1> -->
+        <a href="#projects" type="button" class="cta">Explore</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="pp.jpg" alt="Profile Picture">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>I am Riya Mathur, a passionate Engineering Science student at the University 
+          of Toronto, specializing in Robotics. With hands-on experience in cutting-edge 
+          research and innovative projects, I thrive on solving complex problems and 
+          driving technological advancements</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+
+  <!-- Skills Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Sk<span>i</span>lls</h1>
+        <p id="hello">Here are some of the skills I have acquired through my education and professional experiences.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="icon2.png" /></div>
+          <h2>Soft Skills</h2>
+          <p>Teamwork, Effective Communication, Leadership, Time Management</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Technical Skills</h2>
+          <p>Python, JavaScript, HTML, CSS, C, RISC-V Assembly, Microsoft, CAD, Quantum-Espresso, Git, Quartus, FPGA, MATLAB, ModelSim, VS Code</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="icon3.png" /></div>
+          <h2>Languages</h2>
+          <p>English, Hindi, French, Spanish</p>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- End Service Section -->
+
+
+  <!-- Projects Section -->
+  <!--<section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End Projects Section --> 
+
+
+<!--new project section-->
+<section id="projects">
+  <div class="projects-header">
+    <h1 class="section-title">Recent <span>Projects</span></h1>
+  </div>
+<div class="container2">
+  <div class="product">
+    <div class="product-card">
+      <h2 class="name">Research Project 2022</h2>
+      <a class="popup-btn">More info</a>
+      <img src="pacemaker.png" class="product-img" alt="">
+    </div>
+    <div class="popup-view">
+      <div class="popup-card">
+        <a><i class="fas fa-times close-btn"></i></a>
+        <div class="product-img">
+          <img src="1.png" alt="">
+        </div>
+        <div class="info">
+          <h2>Research Project - Implanatble Piezoelectric device<br><span>University of Toronto</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="product">
+    <div class="product-card">
+      <h2 class="name">Research 2</h2>
+      <a class="popup-btn">More info</a>
+      <img src="dft.png" class="product-img" alt="">
+    </div>
+    <div class="popup-view">
+      <div class="popup-card">
+        <a><i class="fas fa-times close-btn"></i></a>
+        <div class="product-img">
+          <img src="2.png" alt="">
+        </div>
+        <div class="info">
+          <h2>Research 2<br><span>University of Toronto/span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="product">
+    <div class="product-card">
+      <h2 class="name">Magnetic Animal Feeding System</h2>
+      <a class="popup-btn">More info</a>
+      <img src="pneumatic.png" class="product-img" alt="">
+    </div>
+    <div class="popup-view">
+      <div class="popup-card">
+        <a><i class="fas fa-times close-btn"></i></a>
+        <div class="product-img">
+          <img src="3.png" alt="">
+        </div>
+        <div class="info">
+          <h2>Project 3<br><span>RSX</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+var popupViews = document.querySelectorAll('.popup-view');
+var popupBtns = document.querySelectorAll('.popup-btn');
+var closeBtns = document.querySelectorAll('.close-btn');
+
+//javascript for quick view button
+var popup = function(popupClick){
+  popupViews[popupClick].classList.add('active');
+}
+
+popupBtns.forEach((popupBtn, i) => {
+  popupBtn.addEventListener("click", () => {
+    popup(i);
+  });
+});
+
+//javascript for close button
+closeBtns.forEach((closeBtn) => {
+  closeBtn.addEventListener("click", () => {
+    popupViews.forEach((popupView) => {
+      popupView.classList.remove('active');
+    });
+  });
+});
+</script>
+</div>
+
+<script type="text/javascript">
+var popupViews = document.querySelectorAll('.popup-view');
+var popupBtns = document.querySelectorAll('.popup-btn');
+var closeBtns = document.querySelectorAll('.close-btn');
+
+//javascript for quick view button
+var popup = function(popupClick){
+  popupViews[popupClick].classList.add('active');
+}
+
+popupBtns.forEach((popupBtn, i) => {
+  popupBtn.addEventListener("click", () => {
+    popup(i);
+  });
+});
+
+//javascript for close button
+closeBtns.forEach((closeBtn) => {
+  closeBtn.addEventListener("click", () => {
+    popupViews.forEach((popupView) => {
+      popupView.classList.remove('active');
+    });
+  });
+});
+</script>
+</section>
+<!--new project section end-->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 416 856 8269</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>riya.mathur@mail.utoronto.ca</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Toronto, Canada</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>R</span>iya <span>M</span>athur</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 Riya Mathur. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+</html>
