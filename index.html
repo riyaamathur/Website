@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>R</span>iya <span>M</span>athur</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#services" data-after="Service">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div id="intro">
+        <h1>Welcome! <span></span></h1>
+        <h1>I am Riya Mathur <span></span></h1>
+        <h1>Discover My Journey <span></span></h1>
+
+        <!--<h1>Riya Mathur <span></span></h1> -->
+        <a href="#projects" type="button" class="cta">Explore</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="pp.jpg" alt="Profile Picture">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Robotics Engineer/Front End Developer</h2>
+        <p>I am a 3rd Year Engineering Science student specializing in Robotics at the University of Toronto.
+           My journey has been marked by a blend of technical and innovative research. I have developed an Implantable 
+           piezoelectric energy harvester and conducted advanced DFT analysis to enhance lithium-ion battery performance.
+            This year, my team designed a pneumatic waste management system for Bangladesh, demonstrating my ability to 
+            address global challenges with creative solutions. Beyond my technical achievements, I am dedicated to 
+            mentoring younger engineering students, actively contributing to a design team, and am currently pursuing a 
+            Front-end Developer certification from Meta. My vision is to harness my expertise in robotics and engineering
+             to create sustainable technologies that significantly impact the world.</p>
+        <a href="https://drive.google.com/file/d/1tsffIy__k3jEw20BODF2e802ZeXw9uDq/view?usp=sharing" class="cta">View Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+
+  <!-- Skills Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Skills</h1>
+        <p id="hello">Here are some of the skills I have acquired through my education and professional experiences.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="icon2.png" /></div>
+          <h2>Soft Skills</h2>
+          <p>Teamwork, Effective Communication, Leadership, Time Management</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Technical Skills</h2>
+          <p>Python, JavaScript, HTML, CSS, C, RISC-V Assembly, Microsoft, CAD, Quantum-Espresso, Git, Quartus, FPGA, MATLAB, ModelSim, VS Code</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="icon3.png" /></div>
+          <h2>Languages</h2>
+          <p>English, Hindi, French, Spanish</p>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- End Service Section -->
+
+
+<!--new project section-->
+<section id="projects">
+  <div class="projects-header">
+    <h1 class="section-title">Recent <span>Projects</span></h1>
+  </div>
+<div class="container2">
+
+  <div class="product">
+    <div class="product-card">
+      <h2 class="name">Implantable Piezoelectric Energy Harvester - Heart Care</h2>
+      <a class="popup-btn">More info</a>
+      <img src="pacemaker.png" class="product-img" alt="">
+    </div>
+    <div class="popup-view">
+      <div class="popup-card">
+        <a><i class="fas fa-times close-btn"></i></a>
+        <div class="product-img">
+          <img src="pacemaker.png" alt="">
+        </div>
+        <div class="info">
+          <h2>Research-1<br><span>University of Toronto</span></h2>
+          <p>Developed and fabricated an ultrasonic piezoelectric transducer for energy harvesting, significantly enhancing power output and aligning with simulation projections, showcasing potential for revolutionizing pacemaker charging methods.
+            Engineered a humidity-controlled chamber to mitigate fabrication challenges, resulting in improved transducer performance and demonstrating the feasibility of biocompatible piezoelectric energy harvesters for medical implants. Gained hands-on experience in CAD, Python, machining skills, and lab testing</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product">
+    <div class="product-card">
+      <h2 class="name">DFT Research Specialist- EV Batteries</h2>
+      <a class="popup-btn">More info</a>
+      <img src="dft.png" class="product-img" alt="">
+    </div>
+    <div class="popup-view">
+      <div class="popup-card">
+        <a><i class="fas fa-times close-btn"></i></a>
+        <div class="product-img">
+          <img src="dft.png" alt="">
+        </div>
+        <div class="info">
+          <h2>Research-2<br><span>University of Toronto</span></h2>
+          <p>Enhanced lithium-ion battery performance of electric vehicles by conducting DFT simulations with Quantum-Espresso, leading to a predicted 15% increase in energy density and charging speed.
+            Optimized battery lifespan through molecular-level analysis of redox reactions, contributing to improved charging processes and reduced degradation rates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <div class="product">
+        <div class="product-card">
+          <h2 class="name">Pneumatic Waste Management System</h2>
+          <a class="popup-btn">More info</a>
+          <img src="pneumatic.png" class="product-img" alt="">
+        </div>
+    <div class="popup-view">
+      <div class="popup-card">
+        <a><i class="fas fa-times close-btn"></i></a>
+        <div class="product-img">
+          <img src="pneumatic.png" alt="">
+        </div>
+        <div class="info">
+          <h2>Project-2<br><span>Engineering Design Course- UofT</span></h2>
+          <p>Collaborated with a team of 6 on “EcoSorter,” a pneumatic plastic segregation system for efficient waste management in Dhaka, Bangladesh.
+            Optimized software, mechanical and electrical components for durability; achieved over 70% accuracy in distinguishing plastics from non-plastics during prototype testing</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<script type="text/javascript">
+var popupViews = document.querySelectorAll('.popup-view');
+var popupBtns = document.querySelectorAll('.popup-btn');
+var closeBtns = document.querySelectorAll('.close-btn');
+
+//javascript for quick view button
+var popup = function(popupClick){
+  popupViews[popupClick].classList.add('active');
+}
+
+popupBtns.forEach((popupBtn, i) => {
+  popupBtn.addEventListener("click", () => {
+    popup(i);
+  });
+});
+
+//javascript for close button
+closeBtns.forEach((closeBtn) => {
+  closeBtn.addEventListener("click", () => {
+    popupViews.forEach((popupView) => {
+      popupView.classList.remove('active');
+    });
+  });
+});
+</script>
+</div>
+
+<script type="text/javascript">
+var popupViews = document.querySelectorAll('.popup-view');
+var popupBtns = document.querySelectorAll('.popup-btn');
+var closeBtns = document.querySelectorAll('.close-btn');
+
+//javascript for quick view button
+var popup = function(popupClick){
+  popupViews[popupClick].classList.add('active');
+}
+
+popupBtns.forEach((popupBtn, i) => {
+  popupBtn.addEventListener("click", () => {
+    popup(i);
+  });
+});
+
+//javascript for close button
+closeBtns.forEach((closeBtn) => {
+  closeBtn.addEventListener("click", () => {
+    popupViews.forEach((popupView) => {
+      popupView.classList.remove('active');
+    });
+  });
+});
+</script>
+</section>
+<!--new project section end-->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 416 856 8269</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>riya.mathur@mail.utoronto.ca</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Toronto, Canada</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>R</span>iya <span>M</span>athur</h1>
+      </div>
+      
+      <div class="social-icon">
+        <!--
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+      </div>
+    -->
+      <p>Copyright © 2024 Riya Mathur. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+</html>
